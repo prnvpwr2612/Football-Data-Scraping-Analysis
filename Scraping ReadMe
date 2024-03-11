@@ -1,0 +1,12 @@
+In the initial phase of my mini-project, I harnessed the power of Python's requests and Beautiful Soup libraries to conduct web scraping on fbref.com, a renowned platform renowned for its comprehensive 
+football team and league statistics presented in tabular form. The objective was to obtain Serie A statistics, specifically focusing on the standing table's HTML code.
+
+Analogy behind the Code:
+1. HTML Extraction: Retrieved the raw HTML code pertaining to Serie A statistics from the standing table on fbref.com.
+2. Anchor Tag Selection: Identified and selected anchor tags within the HTML, honing in on those with href attributes.
+3. Team Statistics Links: Leveraged the selected anchor tags to access individual team statistics links.
+4. Iterative Data Retrieval: Implemented a systematic loop across a specified range of years to systematically gather shooting and other pertinent statistics for all Serie A teams.
+5. Data Conversion to CSV: Transformed the amassed data, which included date and time information, into a structured CSV file.
+
+
+This comprehensive dataset, compiled through the outlined steps, sets the stage for the subsequent phase of the project – predicting match results.
